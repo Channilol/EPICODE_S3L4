@@ -52,9 +52,19 @@ const generazioneNumeroRandom = () => {
 }
 
 
-
-
+const creazioneSchedaPersonale = () => {
+    const contenitoreScheda = document.getElementById('contenitoreSchedaPersonale')
+    for (let i = 0; i < 24; i++) {
+        const divNumero = document.createElement('div')
+        divNumero.id = [i]
+        const valoreNumero = document.createElement('h3')
+        valoreNumero.innerText = Math.floor(Math.random() * 76) + 1;
+        divNumero.appendChild(valoreNumero)
+        contenitoreScheda.appendChild(divNumero)
+    }
+}
 
 
 creazioneTabellaTombola()
 clickBottone()
+creazioneSchedaPersonale()

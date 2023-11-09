@@ -17,11 +17,12 @@ main h1 {
 #contenitoreTombola {
     background-color: rgb(37, 10, 63);
     color: azure;
-    margin: 0 0 4vh 0;
+    margin: 0 10% 4vh 10%;
+    border-radius: 10px;
 }
 
 #contenitoreTombola > div {
-    width: 9%;
+    width: 5%;
     margin: 0.5%;
     display: inline-block;
     text-align: center;
@@ -53,4 +54,18 @@ main h1 {
     font-size: 1.2em;
     font-weight: 600;
     margin: 4vh 0 0 0;
+}
+
+#contenitoreSchedaPersonale {
+    background-color: rgb(37, 10, 63);
+    color: azure;
+    margin: 0 10% 4vh 10%;
+    border-radius: 10px;
+}
+
+#contenitoreSchedaPersonale > div {
+    width: 5%;
+    margin: 0.5%;
+    display: inline-block;
+    text-align: center;
 }
